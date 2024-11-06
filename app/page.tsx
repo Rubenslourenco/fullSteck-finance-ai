@@ -1,10 +1,8 @@
-const Page = () => {
+const Home = () => {
   return (
-    <div>
-      <h1>Welcome to Finance AI</h1>
-      <p>This is the main page of the Finance AI application.</p>
+    <div className="flex w-screen items-center justify-center">
+      <h1 className="text-red-500">Hello word</h1>
     </div>
   );
 };
-
-export default Page;
+export default Home;
